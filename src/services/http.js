@@ -1,5 +1,5 @@
 import axios from 'axios'
-import authService from '@/services/auth.service';
+import authService from '@/services/authenservice';
 import router from '@/router'
 
 const API_ENDPOINT = process.env.VUE_APP_API_ENDPOINT || "http://127.0.0.1:8000/api";
